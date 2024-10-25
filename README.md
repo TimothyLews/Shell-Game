@@ -1,12 +1,20 @@
-# Shell-Game
+# Shell Game Project
 
-## A Semi-functional website of my rendition of the shell game
+## Description
+The Shell Game Project is an interactive, browser-based game where players try to guess the winning cup after a shuffle. The game showcases JavaScript for functionality, SCSS for styling, and modular design practices. It includes animations to shuffle cups and reveal the winning cup upon selection.
 
-This Game is an example of a digital version of a common street performance called the sheel game. It mainly uses Java script code to demonstrate actions such as the following:
+## Demo
+[Link to Live Demo](#)  
+_Screenshots and GIFs to be added here_
 
-* Relocation of Objects
-* Interactive button aspects
-* As well as interactive Clicking
+## Technologies
+- HTML
+- JavaScript
+- SCSS (compiled to CSS)
 
-...
-## If not seen in Canvas This video will help with a better explanation on how everything works
+## Technical Information
+
+### Setup Instructions
+1. **Clone the repository**: 
+   ```bash
+   git clone https://github.com/username/shell-game.git
