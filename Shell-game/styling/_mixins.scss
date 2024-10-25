@@ -1,0 +1,11 @@
+// _mixins.scss
+@mixin cup-style($color) {
+    background-color: $color;
+    padding: $spacing;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@mixin transition($property, $duration) {
+    transition: $property $duration ease-in-out;
+}
