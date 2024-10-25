@@ -1,0 +1,7 @@
+// _functions.scss
+@function adjust-color($color, $amount: 10%) {
+    @if $color == null {
+        @error "Color is required for adjust-color function.";
+    }
+    @return lighten($color, $amount);
+}
