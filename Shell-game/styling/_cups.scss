@@ -1,0 +1,18 @@
+// _cups.scss
+.cup {
+    @include cup-style($cup-bg-color);
+
+    &--winning {
+        background-color: $win-color;
+    }
+
+    &--losing {
+        background-color: $lose-color;
+    }
+
+    &:hover {
+        cursor: pointer;
+        @include transition(transform, 0.3s);
+        transform: scale(1.05);
+    }
+}

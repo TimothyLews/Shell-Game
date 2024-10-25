@@ -1,0 +1,8 @@
+// _buttons.scss
+.button {
+    font-size: $font-size;
+    @include transition(all, 0.3s);
+    &:hover {
+        background-color: adjust-color($win-color, -10%);
+    }
+}
